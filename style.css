@@ -1,0 +1,12 @@
+body {
+    background-image: url('whitebrick.jpg');
+    font-family: 'Courgette', cursive;
+}
+
+.image{
+    padding:100px;
+}
+
+.materialboxed{
+    margin-top:20px;
+}
