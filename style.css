@@ -11,3 +11,14 @@ body {
     margin-top:20px;
 }
 
+.white {
+    padding:100px;
+    display:none;
+}
+
+.display{
+    margin-top: 10px;
+}
+.hidden {
+    display:none;
+}
