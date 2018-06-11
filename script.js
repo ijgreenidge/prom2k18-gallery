@@ -4,13 +4,13 @@ $(document).ready(function(){
      $('.slider').slider();
      
      $(".display").click(function() {
-         $(".white").css("display","block");
+         $(".white").fadeIn("slow");
          $(".shown").css("display","none");
          $(".hidden").css("display","block");
      });
      
       $(".hidden").click(function() {
-         $(".white").css("display","none");
+         $(".white").fadeOut("slow");
          $(".shown").css("display","block");
          $(".hidden").css("display","none");
      });
